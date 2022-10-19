@@ -1,16 +1,14 @@
 import Gamepad from './Gamepad'
-import './App.css';
+import './App.css'
+
 function App() {
   return (
-    <>
-    <body>
-    <div className="container">
-      <Gamepad />
-      
-        
+    <div className="flexCol body">
+    <div className="container flexCol">
+      <Gamepad />  
       </div>
-    </body>
-    </>
+    </div>
+  
     
   );
 }
