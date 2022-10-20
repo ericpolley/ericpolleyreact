@@ -74,7 +74,7 @@ a {
 
 .gamePad {
   border-radius: 5%;
-  height: 89vh;
+  height: 85vh;
   width: 98%;
   background-image: url("images/plastic.jpg");
   background-repeat: no-repeat;
@@ -206,10 +206,6 @@ a {
     border-radius: 5%;
     border: 5px solid pink;
   }
-  .gamePad {
-    height: 100vh;
-    
-  }
 
   .home {
     width: 100%;
@@ -256,10 +252,7 @@ a {
      border: 5px solid black;
    }
 
-  .gamePad {
-    height: 100vh;
-    
-  }
+
 
   .home {
     width: 100%;
@@ -354,6 +347,7 @@ iframe {
 .nav {
   cursor: pointer;
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .nav:hover {

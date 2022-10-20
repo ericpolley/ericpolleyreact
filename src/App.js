@@ -15,6 +15,7 @@ function App() {
       <ButtonVlog />
       <div className="navSpacer"></div>
       <ButtonPortfolio2 />
+      <div className="navSpacer"></div>
       </div>
     <div className="container flexCol">
       
