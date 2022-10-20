@@ -12,6 +12,13 @@
   height: 100vh;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  cursor: default;
+}
+a {
+  cursor: pointer;
+}
+
 .camera {
   width: 97%;
   height: 97%;
@@ -19,6 +26,7 @@
   border-radius: 5%;
   background-color: bisque;
   overflow: hidden;
+  
 }
 .tv {
   width: 95%;
@@ -26,18 +34,31 @@
   border: 5px solid black;
   border-radius: 5%;
   background-color: rgba(0, 0, 0, 0.7);
+  scroll-behavior: smooth;
 }
 
 .buttons {
   width: 95%;
   height: 35%;
+  cursor: grab;
 }
 
 .btnRound {
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  border: 3px solid white;
+  border: 3px solid rgb(239, 232, 232);
+}
+
+.btnRound:active, .btnLong:active {
+  cursor:grabbing;
+  background-blend-mode: overlay;
+  background-color: black;
+
+}
+
+.btnArrows:active {
+  cursor:grabbing;
 }
 
 
@@ -46,19 +67,10 @@
   width: 120px;
   height: 70px;
   border: 3px solid white;
+
 }
 
-.container {
-  border: 5px solid black;
-  height: 90vh;
-  background-image: url("images/plastic.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  background-blend-mode: overlay;
-  background-color: rgba(18, 186, 161, 0.2);
-  border-radius: 5%;
-}
+
 
 .gamePad {
   border-radius: 5%;
@@ -69,12 +81,22 @@
   background-size: cover;
   background-position: bottom;
   background-blend-mode: overlay;
-  background-color: rgba(18, 186, 161, 0.6);
+  background-color: rgba(18, 43, 186, 0.5);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 620px) {
+
   .container {
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    height: 95vh;
     width: 600px;
+    background-image: url("images/plastic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: overlay;
+    background-color: rgba(22, 50, 207, 0.5);
+    border-radius: 5%;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -91,7 +113,7 @@
   }
   iframe {
     margin-left:1%;
-    margin-top: 6%;
+    margin-top: 5.5%;
     width: 580px;
     height: 60vh;
     border-radius: 5%;
@@ -103,25 +125,36 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .container {
-    width: 95vw;
-    min-width: 340px;
+    width: 97vw;
+    height: 98vh;
+    min-width: 300px;
+    background-image: url("images/plastic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: overlay;
+    background-color: rgba(22, 50, 207, 0.5);
+    border-radius: 5%;
     margin-left: 2%;
     margin-right: 2%;
+    padding-top: 2%;
   }
   .empty {
     width: 30px;
     height: 30px;
   }
   iframe {
-    margin-top: 5%;
-    width: 87vw;
+    margin-top: 6%;
+    width: 93vw;
     height: 59vh;
     border-radius: 5%;
     border: 5px solid black;
-
-  
+  }
+  .gamePad {
+    height: 100vh;
+    
   }
   
 

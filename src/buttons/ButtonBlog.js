@@ -5,12 +5,12 @@ export default function Blog() {
     <>
 
    
-    <div className="btnRound margTop flexRow darken" onClick={showContact}>Blog</div>
+    <div className="darken btnRound margTop flexRow " onClick={showBlog}>Blog</div>
   
   </>
   )
 
-  function showContact() {
+  function showBlog() {
     console.log('show blog onclick')
     document.getElementById('Blog').classList.remove('hide');
     document.getElementById('Portfolio').classList.add('hide');
