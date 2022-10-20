@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div id="Contact" className="hide" >
+    <div id="Contact" className="hide tvBox" >
      <h3> Contact</h3>
      <br />
      <p> Eric Polley </p>
