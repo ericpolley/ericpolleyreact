@@ -1,21 +1,21 @@
+import React from 'react'
 
-
-export default function Blog() {
+export default function ButtonTutorials() {
   return (
     <>
 
    
-    <div className="btnLong flexRow darken"  onClick={showPortfolio}>Portfolio</div>
+    <div className="nav" onClick={showVlog}> <p> Monthly Vlog Videos </p></div>
   
   </>
   )
 
-  function showPortfolio() {
-    console.log('show portfolio onclick')
+  function showVlog() {
+    console.log('show vlog onclick')
+    document.getElementById('Vlog').classList.remove('hide');
     document.getElementById('Tutorials').classList.add('hide');
-    document.getElementById('Vlog').classList.add('hide');
     document.getElementById('Blog').classList.add('hide');
-    document.getElementById('Portfolio').classList.remove('hide');
+    document.getElementById('Portfolio').classList.add('hide');
     document.getElementById('Contact').classList.add('hide');
     document.getElementById('Resume').classList.add('hide');
     document.getElementById('Home').classList.add('hide');

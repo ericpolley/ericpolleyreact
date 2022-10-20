@@ -23,6 +23,8 @@ export default function ButtonsArrows() {
   
     function showUp() {
       console.log('show UP onclick')
+      document.getElementById('Tutorials').classList.add('hide');
+    document.getElementById('Vlog').classList.add('hide');
       document.getElementById('Blog').classList.remove('hide');
     document.getElementById('Portfolio').classList.add('hide');
     document.getElementById('Contact').classList.add('hide');
@@ -32,6 +34,8 @@ export default function ButtonsArrows() {
     }
     function showDown() {
         console.log('show Down onclick')
+        document.getElementById('Tutorials').classList.add('hide');
+    document.getElementById('Vlog').classList.add('hide');
         document.getElementById('Blog').classList.add('hide');
     document.getElementById('Portfolio').classList.remove('hide');
     document.getElementById('Contact').classList.add('hide');
@@ -43,6 +47,8 @@ export default function ButtonsArrows() {
       
       function showLeft() {
         console.log('show Left onclick')
+        document.getElementById('Tutorials').classList.add('hide');
+    document.getElementById('Vlog').classList.add('hide');
         document.getElementById('Blog').classList.add('hide');
     document.getElementById('Portfolio').classList.add('hide');
     document.getElementById('Contact').classList.remove('hide');
@@ -51,6 +57,8 @@ export default function ButtonsArrows() {
       }
       function showRight() {
         console.log('show Right onclick')
+        document.getElementById('Tutorials').classList.add('hide');
+    document.getElementById('Vlog').classList.add('hide');
         document.getElementById('Blog').classList.add('hide');
     document.getElementById('Portfolio').classList.add('hide');
     document.getElementById('Contact').classList.add('hide');

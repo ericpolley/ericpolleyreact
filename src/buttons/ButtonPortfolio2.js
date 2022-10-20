@@ -1,17 +1,17 @@
 
 
-export default function Blog() {
+export default function Portfolio2() {
   return (
     <>
 
    
-    <div className="btnLong flexRow darken"  onClick={showPortfolio}>Portfolio</div>
+    <div className="nav"  onClick={showPortfolio2}>Portfolio</div>
   
   </>
   )
 
-  function showPortfolio() {
-    console.log('show portfolio onclick')
+  function showPortfolio2() {
+    console.log('show portfolio2 onclick')
     document.getElementById('Tutorials').classList.add('hide');
     document.getElementById('Vlog').classList.add('hide');
     document.getElementById('Blog').classList.add('hide');

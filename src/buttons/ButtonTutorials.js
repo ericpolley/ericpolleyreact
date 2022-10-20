@@ -1,20 +1,20 @@
 import React from 'react'
 
-export default function Blog() {
+export default function ButtonTutorials() {
   return (
     <>
 
    
-    <div className="darken btnRound margTop flexRow " onClick={showBlog}>Blog</div>
+    <div className="nav" onClick={showTutorials}><p>Tutorials</p>  </div>
   
   </>
   )
 
-  function showBlog() {
-    console.log('show tutorials onclick')
-    document.getElementById('Tutorials').classList.add('hide');
+  function showTutorials() {
+    console.log('show tutorial onclick')
+    document.getElementById('Tutorials').classList.remove('hide');
     document.getElementById('Vlog').classList.add('hide');
-    document.getElementById('Blog').classList.remove('hide');
+    document.getElementById('Blog').classList.add('hide');
     document.getElementById('Portfolio').classList.add('hide');
     document.getElementById('Contact').classList.add('hide');
     document.getElementById('Resume').classList.add('hide');

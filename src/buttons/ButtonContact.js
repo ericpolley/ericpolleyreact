@@ -12,6 +12,8 @@ export default function Blog() {
 
   function showContact() {
     console.log('show contact onclick')
+    document.getElementById('Tutorials').classList.add('hide');
+    document.getElementById('Vlog').classList.add('hide');
     document.getElementById('Blog').classList.add('hide');
     document.getElementById('Portfolio').classList.add('hide');
     document.getElementById('Contact').classList.remove('hide');
