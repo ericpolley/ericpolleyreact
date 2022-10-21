@@ -5,7 +5,7 @@ export default function ButtonTutorials() {
     <>
 
    
-    <div className="nav" onClick={showTutorials}><p>Tutorials</p>  </div>
+    <div className="nav" onClick={showTutorials}><p>80 Second Tutorials</p>  </div>
   
   </>
   )
