@@ -242,12 +242,12 @@ a {
   }
   iframe  {
     
-    margin: 1%;
-    margin-top: 8%;
+    margin-left: 2%;
+    margin-top: 12%;
     margin-bottom: 0;
- 
-     width: 93vw;
-     height: 66vh;
+    width: 100%;
+    min-width: 90vw;
+     height: 60vh;
      border-radius: 5%;
      border: 5px solid black;
    }
