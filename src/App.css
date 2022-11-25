@@ -74,7 +74,7 @@ a {
 
 .gamePad {
   border-radius: 5%;
-  height: 85vh;
+  height: 90vh;
   width: 98%;
   background-image: url("images/plastic.jpg");
   background-repeat: no-repeat;
@@ -84,41 +84,10 @@ a {
   background-color: rgba(18, 43, 186, 0.5);
 }
 
-@media (max-height: 700px ) {
-  .buttons {
-    width: 95%;
-    height: 260px;
-    cursor: grab;
-  }
-  .tv {
-  width: 95%;
-  height: 260px;
-  border: 5px solid black;
-  border-radius: 5%;
-  background-color: rgba(0, 0, 0, 0.7);
-  scroll-behavior: smooth;
-}
-.btnLong {
-  border-radius: 50%;
-  width: 80px;
-  height: 30px;
-  border: 3px solid white;
 
-}
-.btnRound {
-  border-radius: 50%;
-  width: 70px;
-  height: 40px;
-  border: 3px solid rgb(239, 232, 232);
-}
-.arrowLeft, .arrowRight {
-  width: 30px;
-  height: 30px;
-}
-}
-
-@media (max-height: 500px ) {
+@media (max-height: 680px ) {
   .buttons {
+    margin-top: 20px;
     width: 100%;
     height: 200px;
     cursor: grab;
@@ -135,6 +104,7 @@ a {
 }
 
 @media (min-width: 600px) {
+
 
   .container {
     border: 5px solid rgba(0, 0, 0, 0.5);
@@ -201,8 +171,8 @@ a {
   }
   iframe {
     margin-left:1%;
-    width: 550px;
-    height: 70vh;
+    width: 530px;
+    height: 58vh;
     border-radius: 5%;
     border: 5px solid pink;
   }
@@ -223,7 +193,7 @@ a {
 @media (max-width: 420px) {
   .container {
     width: 97vw;
-    height: 98vh;
+    height: 93vh;
     min-width: 300px;
     background-image: url("images/plastic.jpg");
     background-repeat: no-repeat;
@@ -241,12 +211,16 @@ a {
     height: 30px;
   }
   iframe  {
-    
- 
-    margin-top: 12%;
+    margin-top: 9%;
     margin-bottom: 0;
-    width: 100%;
-    min-width: 90vw;
+    width: 94vw;
+     height: 60vh;
+     border-radius: 5%;
+     border: 5px solid black;
+   }
+   .youtubeiframe  {
+    margin: 0;
+    width: 90vw;
      height: 60vh;
      border-radius: 5%;
      border: 5px solid black;
