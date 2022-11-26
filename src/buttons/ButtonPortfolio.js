@@ -5,7 +5,7 @@ export default function Blog() {
     <>
 
    
-    <div className="btnLong flexRow darken"  onClick={showPortfolio}>Portfolio</div>
+    <div className="btnLong flexRow  darken"  onClick={showPortfolio}>Portfolio</div>
   
   </>
   )
